@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A64892512983132E0016FB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64892502983132E0016FB50 /* AppDelegate.swift */; };
+		A64892532983132E0016FB50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64892522983132E0016FB50 /* SceneDelegate.swift */; };
+		A64892552983132E0016FB50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64892542983132E0016FB50 /* ViewController.swift */; };
+		A64892582983132E0016FB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64892562983132E0016FB50 /* Main.storyboard */; };
+		A648925A298313300016FB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6489259298313300016FB50 /* Assets.xcassets */; };
+		A648925D298313300016FB50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A648925B298313300016FB50 /* LaunchScreen.storyboard */; };
+		A6489268298313300016FB50 /* MandalaProgrammaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489267298313300016FB50 /* MandalaProgrammaticUITests.swift */; };
+		A6489272298313300016FB50 /* MandalaProgrammaticUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489271298313300016FB50 /* MandalaProgrammaticUIUITests.swift */; };
+		A6489274298313300016FB50 /* MandalaProgrammaticUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489273298313300016FB50 /* MandalaProgrammaticUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6489264298313300016FB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64892452983132E0016FB50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A648924C2983132E0016FB50;
+			remoteInfo = MandalaProgrammaticUI;
+		};
+		A648926E298313300016FB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A64892452983132E0016FB50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A648924C2983132E0016FB50;
+			remoteInfo = MandalaProgrammaticUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A648924D2983132E0016FB50 /* MandalaProgrammaticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MandalaProgrammaticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64892502983132E0016FB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A64892522983132E0016FB50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A64892542983132E0016FB50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A64892572983132E0016FB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6489259298313300016FB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A648925C298313300016FB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A648925E298313300016FB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6489263298313300016FB50 /* MandalaProgrammaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MandalaProgrammaticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6489267298313300016FB50 /* MandalaProgrammaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaProgrammaticUITests.swift; sourceTree = "<group>"; };
+		A648926D298313300016FB50 /* MandalaProgrammaticUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MandalaProgrammaticUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6489271298313300016FB50 /* MandalaProgrammaticUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaProgrammaticUIUITests.swift; sourceTree = "<group>"; };
+		A6489273298313300016FB50 /* MandalaProgrammaticUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaProgrammaticUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A648924A2983132E0016FB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6489260298313300016FB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A648926A298313300016FB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A64892442983132E0016FB50 = {
+			isa = PBXGroup;
+			children = (
+				A648924F2983132E0016FB50 /* MandalaProgrammaticUI */,
+				A6489266298313300016FB50 /* MandalaProgrammaticUITests */,
+				A6489270298313300016FB50 /* MandalaProgrammaticUIUITests */,
+				A648924E2983132E0016FB50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A648924E2983132E0016FB50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A648924D2983132E0016FB50 /* MandalaProgrammaticUI.app */,
+				A6489263298313300016FB50 /* MandalaProgrammaticUITests.xctest */,
+				A648926D298313300016FB50 /* MandalaProgrammaticUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A648924F2983132E0016FB50 /* MandalaProgrammaticUI */ = {
+			isa = PBXGroup;
+			children = (
+				A64892502983132E0016FB50 /* AppDelegate.swift */,
+				A64892522983132E0016FB50 /* SceneDelegate.swift */,
+				A64892542983132E0016FB50 /* ViewController.swift */,
+				A64892562983132E0016FB50 /* Main.storyboard */,
+				A6489259298313300016FB50 /* Assets.xcassets */,
+				A648925B298313300016FB50 /* LaunchScreen.storyboard */,
+				A648925E298313300016FB50 /* Info.plist */,
+			);
+			path = MandalaProgrammaticUI;
+			sourceTree = "<group>";
+		};
+		A6489266298313300016FB50 /* MandalaProgrammaticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6489267298313300016FB50 /* MandalaProgrammaticUITests.swift */,
+			);
+			path = MandalaProgrammaticUITests;
+			sourceTree = "<group>";
+		};
+		A6489270298313300016FB50 /* MandalaProgrammaticUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6489271298313300016FB50 /* MandalaProgrammaticUIUITests.swift */,
+				A6489273298313300016FB50 /* MandalaProgrammaticUIUITestsLaunchTests.swift */,
+			);
+			path = MandalaProgrammaticUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A648924C2983132E0016FB50 /* MandalaProgrammaticUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6489277298313300016FB50 /* Build configuration list for PBXNativeTarget "MandalaProgrammaticUI" */;
+			buildPhases = (
+				A64892492983132E0016FB50 /* Sources */,
+				A648924A2983132E0016FB50 /* Frameworks */,
+				A648924B2983132E0016FB50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MandalaProgrammaticUI;
+			productName = MandalaProgrammaticUI;
+			productReference = A648924D2983132E0016FB50 /* MandalaProgrammaticUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6489262298313300016FB50 /* MandalaProgrammaticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A648927A298313300016FB50 /* Build configuration list for PBXNativeTarget "MandalaProgrammaticUITests" */;
+			buildPhases = (
+				A648925F298313300016FB50 /* Sources */,
+				A6489260298313300016FB50 /* Frameworks */,
+				A6489261298313300016FB50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6489265298313300016FB50 /* PBXTargetDependency */,
+			);
+			name = MandalaProgrammaticUITests;
+			productName = MandalaProgrammaticUITests;
+			productReference = A6489263298313300016FB50 /* MandalaProgrammaticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A648926C298313300016FB50 /* MandalaProgrammaticUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A648927D298313300016FB50 /* Build configuration list for PBXNativeTarget "MandalaProgrammaticUIUITests" */;
+			buildPhases = (
+				A6489269298313300016FB50 /* Sources */,
+				A648926A298313300016FB50 /* Frameworks */,
+				A648926B298313300016FB50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A648926F298313300016FB50 /* PBXTargetDependency */,
+			);
+			name = MandalaProgrammaticUIUITests;
+			productName = MandalaProgrammaticUIUITests;
+			productReference = A648926D298313300016FB50 /* MandalaProgrammaticUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A64892452983132E0016FB50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A648924C2983132E0016FB50 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A6489262298313300016FB50 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A648924C2983132E0016FB50;
+					};
+					A648926C298313300016FB50 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A648924C2983132E0016FB50;
+					};
+				};
+			};
+			buildConfigurationList = A64892482983132E0016FB50 /* Build configuration list for PBXProject "MandalaProgrammaticUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A64892442983132E0016FB50;
+			productRefGroup = A648924E2983132E0016FB50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A648924C2983132E0016FB50 /* MandalaProgrammaticUI */,
+				A6489262298313300016FB50 /* MandalaProgrammaticUITests */,
+				A648926C298313300016FB50 /* MandalaProgrammaticUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A648924B2983132E0016FB50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A648925D298313300016FB50 /* LaunchScreen.storyboard in Resources */,
+				A648925A298313300016FB50 /* Assets.xcassets in Resources */,
+				A64892582983132E0016FB50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6489261298313300016FB50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A648926B298313300016FB50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A64892492983132E0016FB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64892552983132E0016FB50 /* ViewController.swift in Sources */,
+				A64892512983132E0016FB50 /* AppDelegate.swift in Sources */,
+				A64892532983132E0016FB50 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A648925F298313300016FB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6489268298313300016FB50 /* MandalaProgrammaticUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6489269298313300016FB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6489272298313300016FB50 /* MandalaProgrammaticUIUITests.swift in Sources */,
+				A6489274298313300016FB50 /* MandalaProgrammaticUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6489265298313300016FB50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A648924C2983132E0016FB50 /* MandalaProgrammaticUI */;
+			targetProxy = A6489264298313300016FB50 /* PBXContainerItemProxy */;
+		};
+		A648926F298313300016FB50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A648924C2983132E0016FB50 /* MandalaProgrammaticUI */;
+			targetProxy = A648926E298313300016FB50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A64892562983132E0016FB50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A64892572983132E0016FB50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A648925B298313300016FB50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A648925C298313300016FB50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6489275298313300016FB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6489276298313300016FB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6489278298313300016FB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MandalaProgrammaticUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.MandalaProgrammaticUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6489279298313300016FB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MandalaProgrammaticUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.MandalaProgrammaticUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A648927B298313300016FB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.MandalaProgrammaticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MandalaProgrammaticUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MandalaProgrammaticUI";
+			};
+			name = Debug;
+		};
+		A648927C298313300016FB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.MandalaProgrammaticUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MandalaProgrammaticUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MandalaProgrammaticUI";
+			};
+			name = Release;
+		};
+		A648927E298313300016FB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.MandalaProgrammaticUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MandalaProgrammaticUI;
+			};
+			name = Debug;
+		};
+		A648927F298313300016FB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T43QAL25VC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftygeorge.MandalaProgrammaticUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MandalaProgrammaticUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A64892482983132E0016FB50 /* Build configuration list for PBXProject "MandalaProgrammaticUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6489275298313300016FB50 /* Debug */,
+				A6489276298313300016FB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6489277298313300016FB50 /* Build configuration list for PBXNativeTarget "MandalaProgrammaticUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6489278298313300016FB50 /* Debug */,
+				A6489279298313300016FB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A648927A298313300016FB50 /* Build configuration list for PBXNativeTarget "MandalaProgrammaticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A648927B298313300016FB50 /* Debug */,
+				A648927C298313300016FB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A648927D298313300016FB50 /* Build configuration list for PBXNativeTarget "MandalaProgrammaticUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A648927E298313300016FB50 /* Debug */,
+				A648927F298313300016FB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A64892452983132E0016FB50 /* Project object */;
+}
