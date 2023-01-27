@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Gives any view controller that conforms to it the ability do add a mood entry
 protocol MoodsConfigurable {
     func add(_ moodEntry: MoodEntry)
 }
