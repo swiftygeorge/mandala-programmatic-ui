@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		A64892512983132E0016FB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64892502983132E0016FB50 /* AppDelegate.swift */; };
 		A64892532983132E0016FB50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64892522983132E0016FB50 /* SceneDelegate.swift */; };
-		A64892552983132E0016FB50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64892542983132E0016FB50 /* ViewController.swift */; };
-		A64892582983132E0016FB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64892562983132E0016FB50 /* Main.storyboard */; };
 		A648925A298313300016FB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6489259298313300016FB50 /* Assets.xcassets */; };
 		A648925D298313300016FB50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A648925B298313300016FB50 /* LaunchScreen.storyboard */; };
 		A6489268298313300016FB50 /* MandalaProgrammaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489267298313300016FB50 /* MandalaProgrammaticUITests.swift */; };
 		A6489272298313300016FB50 /* MandalaProgrammaticUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489271298313300016FB50 /* MandalaProgrammaticUIUITests.swift */; };
 		A6489274298313300016FB50 /* MandalaProgrammaticUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489273298313300016FB50 /* MandalaProgrammaticUIUITestsLaunchTests.swift */; };
+		A648928129831F410016FB50 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = A648928029831F410016FB50 /* Mood.swift */; };
+		A648928329831F920016FB50 /* MoodEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A648928229831F920016FB50 /* MoodEntry.swift */; };
+		A6489285298321ED0016FB50 /* UIColor+Mandala.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489284298321ED0016FB50 /* UIColor+Mandala.swift */; };
+		A6489287298323FB0016FB50 /* UIImage+Mandala.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489286298323FB0016FB50 /* UIImage+Mandala.swift */; };
+		A6489289298328F70016FB50 /* MoodSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6489288298328F70016FB50 /* MoodSelectionViewController.swift */; };
+		A6BBEC46298350E700F1989B /* MoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BBEC45298350E700F1989B /* MoodListViewController.swift */; };
+		A6BBEC482983AC3E00F1989B /* MoodsConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6BBEC472983AC3E00F1989B /* MoodsConfigurable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		A648924D2983132E0016FB50 /* MandalaProgrammaticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MandalaProgrammaticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64892502983132E0016FB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A64892522983132E0016FB50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A64892542983132E0016FB50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A64892572983132E0016FB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6489259298313300016FB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A648925C298313300016FB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A648925E298313300016FB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		A648926D298313300016FB50 /* MandalaProgrammaticUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MandalaProgrammaticUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6489271298313300016FB50 /* MandalaProgrammaticUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaProgrammaticUIUITests.swift; sourceTree = "<group>"; };
 		A6489273298313300016FB50 /* MandalaProgrammaticUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandalaProgrammaticUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A648928029831F410016FB50 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		A648928229831F920016FB50 /* MoodEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodEntry.swift; sourceTree = "<group>"; };
+		A6489284298321ED0016FB50 /* UIColor+Mandala.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Mandala.swift"; sourceTree = "<group>"; };
+		A6489286298323FB0016FB50 /* UIImage+Mandala.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Mandala.swift"; sourceTree = "<group>"; };
+		A6489288298328F70016FB50 /* MoodSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSelectionViewController.swift; sourceTree = "<group>"; };
+		A6BBEC45298350E700F1989B /* MoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodListViewController.swift; sourceTree = "<group>"; };
+		A6BBEC472983AC3E00F1989B /* MoodsConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsConfigurable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +111,13 @@
 			children = (
 				A64892502983132E0016FB50 /* AppDelegate.swift */,
 				A64892522983132E0016FB50 /* SceneDelegate.swift */,
-				A64892542983132E0016FB50 /* ViewController.swift */,
-				A64892562983132E0016FB50 /* Main.storyboard */,
+				A6489288298328F70016FB50 /* MoodSelectionViewController.swift */,
+				A6BBEC45298350E700F1989B /* MoodListViewController.swift */,
+				A6BBEC472983AC3E00F1989B /* MoodsConfigurable.swift */,
+				A648928029831F410016FB50 /* Mood.swift */,
+				A648928229831F920016FB50 /* MoodEntry.swift */,
+				A6489284298321ED0016FB50 /* UIColor+Mandala.swift */,
+				A6489286298323FB0016FB50 /* UIImage+Mandala.swift */,
 				A6489259298313300016FB50 /* Assets.xcassets */,
 				A648925B298313300016FB50 /* LaunchScreen.storyboard */,
 				A648925E298313300016FB50 /* Info.plist */,
@@ -233,7 +248,6 @@
 			files = (
 				A648925D298313300016FB50 /* LaunchScreen.storyboard in Resources */,
 				A648925A298313300016FB50 /* Assets.xcassets in Resources */,
-				A64892582983132E0016FB50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A64892552983132E0016FB50 /* ViewController.swift in Sources */,
 				A64892512983132E0016FB50 /* AppDelegate.swift in Sources */,
+				A6BBEC46298350E700F1989B /* MoodListViewController.swift in Sources */,
+				A648928129831F410016FB50 /* Mood.swift in Sources */,
+				A6489285298321ED0016FB50 /* UIColor+Mandala.swift in Sources */,
+				A6BBEC482983AC3E00F1989B /* MoodsConfigurable.swift in Sources */,
 				A64892532983132E0016FB50 /* SceneDelegate.swift in Sources */,
+				A6489289298328F70016FB50 /* MoodSelectionViewController.swift in Sources */,
+				A6489287298323FB0016FB50 /* UIImage+Mandala.swift in Sources */,
+				A648928329831F920016FB50 /* MoodEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +317,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A64892562983132E0016FB50 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A64892572983132E0016FB50 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A648925B298313300016FB50 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +454,6 @@
 				INFOPLIST_FILE = MandalaProgrammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +481,6 @@
 				INFOPLIST_FILE = MandalaProgrammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
