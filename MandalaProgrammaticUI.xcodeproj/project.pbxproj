@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A632FB36298610BF005064C0 /* ImageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A632FB35298610BF005064C0 /* ImageSelector.swift */; };
 		A64892512983132E0016FB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64892502983132E0016FB50 /* AppDelegate.swift */; };
 		A64892532983132E0016FB50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64892522983132E0016FB50 /* SceneDelegate.swift */; };
 		A648925A298313300016FB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6489259298313300016FB50 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A632FB35298610BF005064C0 /* ImageSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelector.swift; sourceTree = "<group>"; };
 		A648924D2983132E0016FB50 /* MandalaProgrammaticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MandalaProgrammaticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64892502983132E0016FB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A64892522983132E0016FB50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				A64892522983132E0016FB50 /* SceneDelegate.swift */,
 				A6489288298328F70016FB50 /* MoodSelectionViewController.swift */,
 				A6BBEC45298350E700F1989B /* MoodListViewController.swift */,
+				A632FB35298610BF005064C0 /* ImageSelector.swift */,
 				A6BBEC472983AC3E00F1989B /* MoodsConfigurable.swift */,
 				A648928029831F410016FB50 /* Mood.swift */,
 				A648928229831F920016FB50 /* MoodEntry.swift */,
@@ -280,6 +283,7 @@
 				A64892532983132E0016FB50 /* SceneDelegate.swift in Sources */,
 				A6489289298328F70016FB50 /* MoodSelectionViewController.swift in Sources */,
 				A6489287298323FB0016FB50 /* UIImage+Mandala.swift in Sources */,
+				A632FB36298610BF005064C0 /* ImageSelector.swift in Sources */,
 				A648928329831F920016FB50 /* MoodEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

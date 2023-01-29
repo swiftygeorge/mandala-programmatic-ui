@@ -13,8 +13,18 @@ class MoodSelectionViewController: UIViewController {
     // MARK: - View objects
     
     let visualEffectView = UIVisualEffectView()
+    
     let stackView = UIStackView()
+    
+    let moodSelector: ImageSelector = {
+        let imageSelector = ImageSelector()
+        imageSelector.addTarget(nil, action: #selector(moodSelectionChanged(_:)), for: .valueChanged)
+        imageSelector.translatesAutoresizingMaskIntoConstraints = false
+        return imageSelector
+    }()
+    
     let addMoodButton = UIButton(type: .system)
+    
     let moodListViewController = MoodListViewController()
     
     // MARK: - Data stores
@@ -23,19 +33,7 @@ class MoodSelectionViewController: UIViewController {
     var moods = [Mood]() {
         didSet {
             currentMood = moods.first
-            moodButtons = moods.map { mood in
-                let moodButton = UIButton()
-                moodButton.setImage(mood.image, for: .normal)
-                moodButton.imageView?.contentMode = .scaleAspectFit
-                moodButton.addTarget(self, action: #selector(moodSelectionChanged(_:)), for: .touchUpInside)
-                return moodButton
-            }
-        }
-    }
-    var moodButtons = [UIButton]() {
-        didSet {
-            oldValue.forEach { $0.removeFromSuperview() }
-            moodButtons.forEach { stackView.addArrangedSubview($0) }
+            moodSelector.images = moods.map { $0.image }
         }
     }
     var currentMood: Mood? {
@@ -65,10 +63,8 @@ class MoodSelectionViewController: UIViewController {
     
     /// Triggered when a user taps on one of the mood buttons
     /// - Parameter sender: the button that was tapped (must conform to UIButton)
-    @objc func moodSelectionChanged(_ sender: UIButton) {
-        guard let selectedIndex = moodButtons.firstIndex(of: sender) else {
-            preconditionFailure("unable to find the tapped button in the buttons array.")
-        }
+    @objc func moodSelectionChanged(_ sender: ImageSelector) {
+        let selectedIndex = sender.selectedIndex
         currentMood = moods[selectedIndex]
     }
     
@@ -95,7 +91,7 @@ class MoodSelectionViewController: UIViewController {
         self.view.backgroundColor = .systemBackground
         self.moodsConfigurable = moodListViewController
         configure(visualEffectView)
-        configure(stackView)
+        configure(moodSelector)
         configure(addMoodButton)
         configure(moodListViewController)
         moods = [.happy, .sad, .angry, .goofy, .crying, .confused, .sleepy, .meh]
@@ -133,20 +129,15 @@ extension MoodSelectionViewController {
     /// Adds the stackView to the visual effect view's content view's subviews
     /// Constrains the stack view to the visual effect view's content view (respecting the content view's margins)
     /// - Parameter stackView: a view that conforms to the UIStackView type
-    fileprivate func configure(_ stackView: UIStackView) {
-        stackView.axis = .horizontal
-        stackView.spacing = 12
-        stackView.distribution = .fillEqually
-        stackView.alignment = .center
-        tamic(stackView)
-        self.visualEffectView.contentView.addSubview(stackView)
+    fileprivate func configure(_ imageSelector: ImageSelector) {
+        self.visualEffectView.contentView.addSubview(moodSelector)
         let margins = visualEffectView.contentView.layoutMarginsGuide
         NSLayoutConstraint.activate([
-            stackView.leadingAnchor.constraint(equalTo: margins.leadingAnchor),
-            stackView.trailingAnchor.constraint(equalTo: margins.trailingAnchor),
-            stackView.topAnchor.constraint(equalTo: margins.topAnchor, constant: 8),
-            stackView.bottomAnchor.constraint(equalTo: margins.bottomAnchor, constant: -8),
-            stackView.heightAnchor.constraint(equalToConstant: 50)
+            moodSelector.leadingAnchor.constraint(equalTo: margins.leadingAnchor),
+            moodSelector.trailingAnchor.constraint(equalTo: margins.trailingAnchor),
+            moodSelector.topAnchor.constraint(equalTo: margins.topAnchor, constant: 8),
+            moodSelector.bottomAnchor.constraint(equalTo: margins.bottomAnchor),
+            moodSelector.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
     
